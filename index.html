@@ -10,8 +10,21 @@
     <h1 id="title">This is the title</h1>
     <p id="description">This is a short description</p>
     <form id="survey-form">
-      <label for="name">Name : </label> 
-      <input id="name" type="text" required>
+      <div>
+        <label for="name">Name : </label>
+        <input id="name" type="text" />
+      </div>
+      <div class="clearfix"></div>
+      <br />
+      <div>
+        <label for="email">Email : </label>
+        <input id="email" type="email" required />
+      </div>
+      <div class="clearfix"></div>
+      <br />
+      <div>
+        <button type="submit">Submit</button>
+      </div>
     </form>
   </body>
 </html>
