@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1 id="title">This is the title</h1>
@@ -37,7 +38,7 @@
         />
       </div>
       <br />
-      <div>
+      
       <br />
       <div>
         <label for="dropdown">Pet :</label>
@@ -50,17 +51,41 @@
       <div>
         <label for="participants">Participants :</label> 
         <br />
-        <input type="radio" id="name1" value="Dennis">
+        <input type="radio" id="name1" value="Dennis" required>
         <label for="name1">Dennis</label>
         <br />
-        <input type="radio" id="name2" value="Joseph">
+        <input type="radio" id="name2" value="Joseph" required>
         <label for="name2">Joseph</label>
         <br />
         </div>
       </div>
       <br />
-        <button type="submit">Submit</button>
+      <div>
+        <label for="languages">Programming Languages :</label> <br>
+        <input type="checkbox" id="html" name="html" value="html">
+        <label for="html"> Html</label><br>
+        <input type="checkbox" id="css" name="css" value="css">
+        <label for="css"> Css</label><br>
+        <input type="checkbox" id="ruby" name="ruby" value="ruby">
+        <label for="ruby"> Ruby</label>
       </div>
+      <br>
+      <div>
+        <label for="comments">Comments</label> <br>
+        <textarea 
+          id="comments" 
+          name="comments"
+          rows="5" 
+          cols="33"
+          >
+        </textarea>
+
+      </div>
+      <br>
+      <div>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+      <br>
     </form>
   </body>
 </html>
