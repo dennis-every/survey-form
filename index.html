@@ -11,26 +11,35 @@
     <p id="description">This is a short description</p>
     <form id="survey-form">
       <div>
-        <label for="name">Name : </label>
-        <input id="name" type="text" />
+        <label id="name-label" for="name">Name : </label>
+        <input id="name" type="text" placeholder="Please enter your name" />
       </div>
       <div class="clearfix"></div>
       <br />
       <div>
-        <label for="email">Email : </label>
-        <input id="email" type="email" required />
+        <label id="email-label" for="email">Email : </label>
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="Please enter your email"
+        />
       </div>
       <div class="clearfix"></div>
       <br />
       <div>
-        <label for="number">Number : </label>
-        <input type="number" min="1" max="10">
+        <label id="number-label" for="number">Number : </label>
+        <input
+          type="number"
+          min="1"
+          max="10"
+          placeholder="Please enter your number"
+        />
       </div>
-      <br/>
+      <br />
       <div>
         <button type="submit">Submit</button>
       </div>
-
     </form>
   </body>
 </html>
